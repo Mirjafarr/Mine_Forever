@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    height: 100vh;
+
+    animation: slideshow 15s infinite;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+@keyframes slideshow {
+    0% {
+        background-image: url("../Image/mine1.jpeg");
+    }
+    33% {
+        background-image: url("../Image/mine1.jpeg");
+    }
+    66% {
+        background-image: url("../Image/mine3.jpeg");
+    }
+    100% {
+        background-image: url("../Image/mine4.jpeg");
+    }
+}
